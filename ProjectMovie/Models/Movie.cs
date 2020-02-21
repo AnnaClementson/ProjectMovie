@@ -24,12 +24,9 @@ namespace ProjectMovie.Models
         [Range(1, 100)]
         [DataType(DataType.Currency)]
         public decimal Price { get; set; }
-<<<<<<< HEAD
 
         [RegularExpression(@"^[A-Z]+[a-zA-Z'\s]*$")]
         [StringLength(5)]
-=======
->>>>>>> 6e76f8f9d0c7faf21f4b9a2a9c4e1aeeaf8dc65d
         public string Rating { get; set; }
     }
 
