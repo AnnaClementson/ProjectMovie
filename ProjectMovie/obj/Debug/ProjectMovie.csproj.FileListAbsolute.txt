@@ -236,4 +236,10 @@ C:\Users\anna.clementson\source\repos\ProjectMovie\ProjectMovie\obj\Debug\Projec
 C:\Users\anna.clementson\source\repos\ProjectMovie\ProjectMovie\obj\Debug\ProjectMovie.Migrations.Inital.resources
 C:\Users\anna.clementson\source\repos\ProjectMovie\ProjectMovie\obj\Debug\ProjectMovie.csproj.GenerateResource.cache
 C:\Users\anna.clementson\source\repos\ProjectMovie\ProjectMovie\obj\Debug\ProjectMovie.Migrations.Rating.resources
+<<<<<<< HEAD
 C:\Users\anna.clementson\source\repos\ProjectMovie\ProjectMovie\obj\Debug\ProjectMovie.Migrations.DataAnnotations.resources
+=======
+\\smasltd.local\Fileserver\FolderRedirections\anna.clementson\My Documents\GitHub\ProjectMovie\ProjectMovie\obj\Debug\ProjectMovie.Migrations.Inital.resources
+\\smasltd.local\Fileserver\FolderRedirections\anna.clementson\My Documents\GitHub\ProjectMovie\ProjectMovie\obj\Debug\ProjectMovie.Migrations.Rating.resources
+\\smasltd.local\Fileserver\FolderRedirections\anna.clementson\My Documents\GitHub\ProjectMovie\ProjectMovie\obj\Debug\ProjectMovie.csproj.GenerateResource.cache
+>>>>>>> 6e76f8f9d0c7faf21f4b9a2a9c4e1aeeaf8dc65d

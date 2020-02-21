@@ -141,10 +141,13 @@
     <Compile Include="Migrations\202002201330593_Rating.designer.cs">
       <DependentUpon>202002201330593_Rating.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Migrations\202002201519040_DataAnnotations.cs" />
     <Compile Include="Migrations\202002201519040_DataAnnotations.designer.cs">
       <DependentUpon>202002201519040_DataAnnotations.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> 6e76f8f9d0c7faf21f4b9a2a9c4e1aeeaf8dc65d
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -231,9 +234,12 @@
     <EmbeddedResource Include="Migrations\202002201330593_Rating.resx">
       <DependentUpon>202002201330593_Rating.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Migrations\202002201519040_DataAnnotations.resx">
       <DependentUpon>202002201519040_DataAnnotations.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> 6e76f8f9d0c7faf21f4b9a2a9c4e1aeeaf8dc65d
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
