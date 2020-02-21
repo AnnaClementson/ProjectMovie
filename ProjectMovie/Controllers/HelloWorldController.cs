@@ -14,6 +14,7 @@ namespace MvcMovie.Controllers
                 return View();
             }
 
+            // Passing parameter information from the URL to the controller
             public ActionResult Welcome(string name, int numTimes = 1)
             {
                 ViewBag.Message = "Hello " + name;

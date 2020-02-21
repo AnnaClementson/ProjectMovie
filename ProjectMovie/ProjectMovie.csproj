@@ -133,6 +133,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002201208500_Inital.cs" />
+    <Compile Include="Migrations\202002201208500_Inital.designer.cs">
+      <DependentUpon>202002201208500_Inital.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002201330593_Rating.cs" />
+    <Compile Include="Migrations\202002201330593_Rating.designer.cs">
+      <DependentUpon>202002201330593_Rating.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002201519040_DataAnnotations.cs" />
+    <Compile Include="Migrations\202002201519040_DataAnnotations.designer.cs">
+      <DependentUpon>202002201519040_DataAnnotations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -171,7 +184,9 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -208,6 +223,17 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202002201208500_Inital.resx">
+      <DependentUpon>202002201208500_Inital.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002201330593_Rating.resx">
+      <DependentUpon>202002201330593_Rating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002201519040_DataAnnotations.resx">
+      <DependentUpon>202002201519040_DataAnnotations.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
